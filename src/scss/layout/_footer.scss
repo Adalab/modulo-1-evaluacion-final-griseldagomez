@@ -7,15 +7,19 @@ footer {
         font-size: 14px;
         font-family: "Roboto", sans-serif;
     }
-    
-    nav, p {
-        font-family:"Roboto", sans-serif ;
+
+    nav,
+    p {
+        font-family: "Roboto", sans-serif;
     }
+
     nav {
         text-align: center;
 
     }
-    nav, p {
+
+    nav,
+    p {
         text-align: center;
         color: $color-header;
     }
@@ -37,4 +41,13 @@ footer {
         font-size: 16px;
         font-weight: normal;
     }
+}
+
+a {
+    color: $background-section-1;
+}
+
+.circlefooter {
+    width: 20.6px;
+    height: 24px;
 }
