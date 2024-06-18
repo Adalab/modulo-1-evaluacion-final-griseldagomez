@@ -1,16 +1,21 @@
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   background-image: url("/images/cover.jpeg");
   height: 552px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
-  
+
   .content {
     color: $color-header;
     font-family: $font-header;
-    position: absolute;
-    bottom: 25px;
-    h1, p {
+    padding: 100px;
+
+
+    h1,
+    p {
       text-align: center;
     }
   }
