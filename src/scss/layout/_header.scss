@@ -5,4 +5,14 @@ header {
   background-size: cover;
   background-position: bottom right;
   
+  .content {
+    color: $color-header;
+    font-family: $font-header;
+    position: absolute;
+    bottom: 25px;
+    h1, p {
+      text-align: center;
+    }
+  }
+
 }
