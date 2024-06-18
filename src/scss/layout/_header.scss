@@ -1,24 +1,8 @@
-.cabecera {
-  position: relative;
-  width: 100%;
-  height: 420px;
-
-  .image {
-    width: 100%;
-  }
+header {
+  background-image: url("/images/cover.jpeg");
+  height: 552px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
   
-  .image {
-    position: absolute;
-    top: 0;
-    
-  }
-  .texto {
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .menu {
-    position: absolute;
-    top: 0;
-  }
 }
