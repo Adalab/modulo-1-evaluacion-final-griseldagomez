@@ -1,3 +1,64 @@
-.textos  {
-    margin-bottom: 500px;
+.section1 {
+    padding: 35px;
+
+
+}
+
+h3 {
+    margin: 3px;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+    color: $color-suptitle;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    width: 244px;
+    height: 30px;
+
+}
+
+h2 {
+    margin: 3px;
+    font-family: $font-header;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    width: 290px;
+    height: 30px;
+
+
+}
+
+.tex2 {
+    margin: 3px;
+    color: $color-secondary-tex ;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.67;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+button {
+    width: 160px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px $background-color-boton;
+    background-color: $background-section-1;
+    color: $background-color-boton;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 35px;
+    position: relative;
+    right: 30px;
+
+
+}
+
+.section2 {
+    display: flex;
+    background-color: $background-section-2;
+    
 }

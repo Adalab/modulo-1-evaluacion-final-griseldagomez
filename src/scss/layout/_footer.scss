@@ -1,0 +1,22 @@
+footer {
+    background-color: $background-footer;
+    width: 100%;
+
+    .nav1 {
+        color: $color-header;
+        padding: 15px;
+        line-height: 1.88;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .nav2 {
+        color: $color-header;
+        padding: 15px;
+        line-height: 1.88;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
