@@ -60,5 +60,56 @@ button {
 .section2 {
     display: flex;
     background-color: $background-section-2;
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: repeat (3 1fr);
+
+    .picture1 {
+
+        img {
+            width: 114px;
+            height: 124px;
+        }
+
+        .picture2 {
+            
+            img { 
+                width: 200px;
+                height: 124px;
+            }
+
+
+        }
+
+        .picture3 {
+            width: 114px;
+            height: 124px;
+
+        }
+    }
+
+    .title {
+        font-family: "Roboto Slab";
+        font-size: 12px;
+        text-align: center;
+        color: $color-secondary-tex;
+    }
+
+    .title2 {
+        font-family: "Roboto Slab";
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .start {
+        display: block;
+        margin: 0 auto;
+        background-color: $background-color-boton;
+        color: $color-header;
+        width: 184px;
+        height: 47.3px;
+        font-family: "Roboto", sans-serif;
+
+    }
 }

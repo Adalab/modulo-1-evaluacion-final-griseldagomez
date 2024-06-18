@@ -2,6 +2,24 @@ footer {
     background-color: $background-footer;
     width: 100%;
 
+    .heart {
+        color: $background-color-boton;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    nav, p {
+        font-family:"Roboto", sans-serif ;
+    }
+    nav {
+        text-align: center;
+
+    }
+    nav, p {
+        text-align: center;
+        color: $color-header;
+    }
+
     .nav1 {
         color: $color-header;
         padding: 15px;
