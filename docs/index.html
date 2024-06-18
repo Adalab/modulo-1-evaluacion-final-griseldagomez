@@ -1,69 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pagina web</title>
+
+  <link rel="stylesheet" href="./scss/reset.scss" />
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/index-d7ed80b6.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu"> <a href="https://adalab.es."><img src="./images/ico-menu.svg" alt="iconomenu"></a></div>
+    <div class="content">
+        <h1>COMIENZOS COMPARTIDOS </h1>
+        <p>Todo lo que necesitan para volver al cole con ilusión</p>
+<div class="circle"> <a href="#vueltaalcole"><img src="./images/ico-scroll-down.svg" alt="ico-scroll-down"></a></div>
+</div>
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+  <main>
+    <section class="section1">
+     <h3>HISTORIAS, MODA Y ROPA DEPORTIVA</h3>
+     <h2>TU TIENDA DE DEPORTE</h2>
+     <p class="tex2">El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal.</p>
+     <button>comprar</button>
+     </section>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+    <section class="section2">
+        <article class="grid">
+        <article class="title">
+            <p>¡Prepáralos con tus marcas favoritas!</p>
+            <h4 class="title2">VUELTA AL COLE</h4>
+        </article>
 
-    </li>
-  </ul>
-</main>
+        
+        <article class="picture1">
+            <img src="./images/lpbts-mod05-img01-desk.png" alt="niña">
+            <p>Mochilas escolares</p>
+        </article>
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <article class="picture2">
+            <img src="./images/lpbts-mod05-img04-mob.png" alt="niño">
+            <p>Estuches</p>
+        </article>
 
-  </small>
+        <article class="picture3">
+            <img src="./images/lpbts-mod05-img03-mob.png" alt="niña">
+            <p>Bolsas de desporte</p>
+        </article>
+        
+        <article class= "button2">
+        <button class="start">Empezar ahora</button>
+    </article>
+    </section>
+ </main>
+  <footer>
+    <nav>
+        <ul class="nav1">
+            <li>ZAPATILLA</li>
+            <li>ROPA</li>
+            <li>NIÑO/A</li>
+            <li>DESTACADOS</li>
+            <li>TIPS</li>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="nav2">
+            <li>TWITTER</li>
+            <li>INSTAGRAM</li>
+            <li>YOUTUBE</li>
+        </ul>
+    </nav>
+    <P>©2023</P>
+    <P>we <span class="heart">❤︎</span> run</P>
 </footer>
+</body>
 
-    </div>
-    <script src="./js/main.js"></script>
-  </body>
 </html>
