@@ -67,12 +67,12 @@ button {
         background-color: $background-section-2;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat (4 1fr);
+        grid-template-rows: repeat(3 1fr);
         gap: 15px;
-        justify-items: center;
+        place-items: center;
      
 
-        .photo1 {
+        article {
 
             img {
                 width: 114px;
@@ -80,28 +80,8 @@ button {
                 border-radius: 50%;
 
             }
-
-        }
-
-        .photo2 {
-
-            img {
-                width: 114px;
-                height: 124px;
-                border-radius: 50%;
-            }
-        }
-
-        .photo3 {
-
-            img {
-                width: 114px;
-                height: 124px;
-                border-radius: 50%;
-            }
-
             h4 {
-                
+                text-align: center;
             }
         }
 
