@@ -8,39 +8,72 @@ header {
   background-size: cover;
   background-position: bottom right;
 
-.circle {
-  background-color: $background-section-1;
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
-  margin: 0 auto;
-  padding: 10px 10px 13px 10px;
-}
+  .circle {
+    background-color: $background-section-1;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+    padding: 10px 10px 13px 10px;
+  }
+
   .content {
     color: $color-header;
     font-family: $font-header;
     padding: 50px;
     text-align: center;
-    
+
 
     h1 {
       font-size: 30px;
       font-weight: bold;
-      
+
+      @media all and (min-width: 768px) {
+        font-size: 75px;
+
+
+        @media all and (min-width: 1200px) {
+          font-size: 75px;
+  
+        }
+
+      }
     }
+
     p {
       text-align: center;
       font-size: 16px;
       line-height: 1.19;
       padding: 16px;
       font-family: "Roboto", sans-serif;
+
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+
+        @media all and (min-width: 1200px) {
+          font-size: 24px;
+  
+        }
+
+      }
     }
   }
 }
+
 .menu {
   position: fixed;
   top: 0;
   left: 0;
   background-color: $background-color-boton;
-  
+
+}
+
+
+.content h1 {
+
+
+  @media all and (min-width: 1280px) {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
 }
