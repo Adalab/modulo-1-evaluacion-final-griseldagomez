@@ -7,6 +7,13 @@ footer {
     @media all and (min-width: 768px) {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+    }
+
+    .legend {
+        @media all and (min-width: 768px) {
+            order: 1;
+        }
     }
 
 
@@ -19,6 +26,9 @@ footer {
     nav,
     p {
         font-family: "Roboto", sans-serif;
+        @media all and (min-width: 768px) {
+            order: 2;
+        }
     }
 
     nav {
@@ -74,10 +84,4 @@ a {
     height: 24px;
     padding: 15px 15px 15px 15px;
 
-}
-
-@mixin tablet {
-    @media screen and (max-width: 768px) {
-        @footer {}
-    }
 }
