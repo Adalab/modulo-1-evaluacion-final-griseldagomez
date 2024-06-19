@@ -4,6 +4,11 @@ footer {
     display: flex;
     flex-direction: column;
 
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+    }
+
 
     .heart {
         color: $background-color-boton;
@@ -45,6 +50,7 @@ footer {
     font-size: 16px;
     font-weight: normal;
     margin: 15px;
+
 }
 
 .nav2 {
@@ -67,13 +73,11 @@ a {
     width: 20.6px;
     height: 24px;
     padding: 15px 15px 15px 15px;
-    
+
 }
 
 @mixin tablet {
     @media screen and (max-width: 768px) {
-        @footer {
-            
-        }
+        @footer {}
     }
-    }
+}
