@@ -59,35 +59,52 @@ button {
 
 .section2 {
     background-color: $background-section-2;
-    display: grid;
-    grid-template-columns: 1;
-    grid-row: 3;
+    padding: 15px;
     
-    .photo1 {
-            
-        img {width: 114px;
-            height: 124.1px;
-            border-radius: 50%;
-            
+}
+
+    .grid {
+        background-color: $background-section-2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (4 1fr);
+        gap: 15px;
+        justify-items: center;
+     
+
+        .photo1 {
+
+            img {
+                width: 114px;
+                height: 124px;
+                border-radius: 50%;
+
+            }
+
         }
 
-    }
+        .photo2 {
 
-    .photo2 {
-
-        img {width: 114px;
-            height: 124.1px;
-            border-radius: 50%;
+            img {
+                width: 114px;
+                height: 124px;
+                border-radius: 50%;
+            }
         }
-    }
 
-    .photo3 {
+        .photo3 {
 
-        img {
-            width: 114px;
-            height: 124.1px;
-            border-radius: 50%;
+            img {
+                width: 114px;
+                height: 124px;
+                border-radius: 50%;
+            }
+
+            h4 {
+                
+            }
         }
+
     }
 
     .title {
@@ -114,4 +131,3 @@ button {
         font-family: "Roboto", sans-serif;
 
     }
-}
