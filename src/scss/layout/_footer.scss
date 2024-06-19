@@ -22,7 +22,18 @@ footer {
     p {
         text-align: center;
         color: $color-header;
+        margin: 5px;
     }
+
+    .copy {
+
+        text-align: center;
+        color: $color-header;
+        padding: 10px 50px 20px;
+    }
+
+    }
+    
 
     .nav1 {
         color: $color-header;
@@ -41,7 +52,7 @@ footer {
         font-size: 16px;
         font-weight: normal;
     }
-}
+
 
 a {
     color: $background-section-1;
