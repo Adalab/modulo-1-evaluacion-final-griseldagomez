@@ -3,11 +3,14 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 
     @media all and (min-width: 768px) {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+
     }
 
     .legend {
@@ -15,7 +18,6 @@ footer {
             order: 1;
         }
     }
-
 
     .heart {
         color: $background-color-boton;
@@ -26,6 +28,7 @@ footer {
     nav,
     p {
         font-family: "Roboto", sans-serif;
+
         @media all and (min-width: 768px) {
             order: 2;
         }
@@ -33,7 +36,6 @@ footer {
 
     nav {
         text-align: center;
-
     }
 
     nav,
@@ -51,7 +53,6 @@ footer {
     }
 }
 
-
 .nav1 {
     color: $color-header;
     padding: 15px;
@@ -60,7 +61,7 @@ footer {
     font-size: 16px;
     font-weight: normal;
     margin: 15px;
-
+    text-align: start;
 }
 
 .nav2 {
@@ -70,8 +71,8 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: normal;
+    text-align: start;
 }
-
 
 a {
     color: $background-section-1;
@@ -80,8 +81,11 @@ a {
 .circlefooter {
     background-color: $background-section-1;
     border-radius: 50%;
-    width: 20.6px;
-    height: 24px;
-    padding: 15px 15px 15px 15px;
-
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-25px);
 }
